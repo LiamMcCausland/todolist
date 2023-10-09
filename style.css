@@ -7,7 +7,7 @@ body {
     font-family: cookie-monster;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #fffcfc;
 }
 
 @font-face {
@@ -84,4 +84,7 @@ input[type="checkbox"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 100px;
+    margin-bottom: 0%;
+    padding: 0;
 }
