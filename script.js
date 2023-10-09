@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
     addTaskButton.addEventListener("click", function() {
         const taskText = taskInput.value.trim();
         if (taskText !== "") {
-            savedTasks.push({ text: taskText, checked: false });
+            savedTasks.push({ text: taskText, checked: false });;
             saveTasksToLocalStorage();
             displayTasks();
             taskInput.value = "";
