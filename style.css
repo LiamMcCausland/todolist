@@ -75,6 +75,7 @@ li {
 
 /* Add this CSS to increase the checkbox size */
 input[type="checkbox"] {
+    accent-color: #88a8ff;
     width: 30px; /* Adjust the width as needed */
     height: 30px; /* Adjust the height as needed */
 }
